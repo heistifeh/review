@@ -41,7 +41,7 @@ export default function Fact({ domain }: Props) {
               offer options to get money back if a product is not delivered or a dispute arises.
               Each method has its own restrictions; always pay with a method you trust. For more, read{" "}
               <Link
-                href="/safe-payment-methods"
+                href="/help/safe-payment-methods"
                 className="font-semibold underline underline-offset-2 hover:text-neutral-900"
               >
                 “Safe Payment Methods”

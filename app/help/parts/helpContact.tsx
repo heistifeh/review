@@ -25,7 +25,7 @@ export default function HelpContact({
           </p>
           <div className="mt-3">
             <Link
-              href="/report"
+              href="#"
               className="inline-block rounded-none bg-red-600 px-4 py-2 text-sm font-bold text-white hover:bg-red-700"
             >
               REPORT A SCAM

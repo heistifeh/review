@@ -14,11 +14,11 @@ export default function Home() {
         positives={[
           {
             text: 'This website offers "get your money back" [link]friendly payment methods[/link]',
-            href: "/payments",
+            href: "/blog",
           },
           {
             text: "The website seems to be an online store ([link]tips for checking shopping scam[/link])",
-            href: "/shopping-tips",
+            href: "/help",
           },
           { text: "This website has received positive reviews" },
           { text: "The SSL certificate is valid" },
@@ -29,27 +29,39 @@ export default function Home() {
           },
         ]}
         negatives={[]}
-        detailedAnalysisHref="/analysis/giftlycard.com"
+        detailedAnalysisHref="#detailed-analysis"
         visitHref="https://giftlycard.com"
       />
       <FactHome
-  domain="giftlycard.com"
-  blogs={[
-    { title: "Is Sellbra.com Safe or a Scam?", href: "/blog/sellbra" },
-    { title: "Is AirJordanOfficial.us.com Safe or a Scam?", href: "/blog/airjordanofficial" },
-    { title: "Is Noblu-glasses.com Legit or a Scam? Here’s What We Found", href: "/blog/noblu-glasses" },
-    { title: "Is Tupperware-us.com a Scam or Legit?", href: "/blog/tupperware-us" },
-    { title: "Goodteacherlife.com Review: Is it Fake or Real?", href: "/blog/goodteacherlife" },
-  ]}
-  stories={[
-    {
-      title: "How to Recognize a Scam Website",
-      excerpt:
-        "As the influence of the internet rises, so does the prevalence of online scams. Learn key patterns to spot fake stores, investment traps, and phishing pages.",
-      href: "/stories/recognize-scam-website",
-    },
-  ]}
-/>
+        domain="giftlycard.com"
+        blogs={[
+          { title: "Is Sellbra.com Safe or a Scam?", href: "/blog/sellbra" },
+          {
+            title: "Is AirJordanOfficial.us.com Safe or a Scam?",
+            href: "/blog/airjordanofficial",
+          },
+          {
+            title: "Is Noblu-glasses.com Legit or a Scam? Here’s What We Found",
+            href: "/blog/noblu-glasses",
+          },
+          {
+            title: "Is Tupperware-us.com a Scam or Legit?",
+            href: "/blog/tupperware-us",
+          },
+          {
+            title: "Goodteacherlife.com Review: Is it Fake or Real?",
+            href: "/blog/goodteacherlife",
+          },
+        ]}
+        stories={[
+          {
+            title: "How to Recognize a Scam Website",
+            excerpt:
+              "As the influence of the internet rises, so does the prevalence of online scams. Learn key patterns to spot fake stores, investment traps, and phishing pages.",
+            href: "/stories/recognize-scam-website",
+          },
+        ]}
+      />
     </div>
   );
 }

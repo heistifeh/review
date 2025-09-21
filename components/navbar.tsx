@@ -12,7 +12,7 @@ type Item = {
 };
 
 const NAV_ITEMS: Item[] = [
-  { label: "Report a scam", href: "/report", ariaLabel: "Report a scam" },
+  { label: "Report a scam", href: "/help", ariaLabel: "Report a scam" },
   { label: "Blog", href: "/blog", ariaLabel: "Blog" },
   { label: "Help", href: "/help", ariaLabel: "Help" },
 ];

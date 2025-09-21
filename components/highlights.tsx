@@ -56,7 +56,8 @@ export default function Highlights({
             <p>
               {intro[2]}{" "}
               <Link
-                href="/manual-check"
+                href="https://giftlycard.com"
+                target="_blank"
                 className="font-semibold underline underline-offset-2 hover:text-neutral-900"
                 rel="nofollow"
               >
@@ -162,7 +163,7 @@ export default function Highlights({
                   <span className="block">Total reviews: 212</span>
                   <span className="block">Average score: 4.7 stars</span>
                   <Link
-                    href="#"
+                    href="/help"
                     className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
                   >
                     Learn more
@@ -175,7 +176,7 @@ export default function Highlights({
                 <ul className="mt-2 list-disc pl-5 text-sm text-neutral-700">
                   <li>
                     <Link
-                      href="#"
+                      href="/blog"
                       className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
                     >
                       Trustpilot: 4.7/5 stars, 212 reviews

@@ -25,7 +25,7 @@ export default function SiteSafetySection({
   domain,
   trustScore,
   lastScanDays = 30,
-  onUpdateScoreHref = "/update-score",
+  onUpdateScoreHref = "/blog",
   toolsHeading = "Your Go-To Tools for Online Safety",
   appLinks = [
     {
@@ -80,7 +80,7 @@ export default function SiteSafetySection({
                 className="rounded-none bg-red-600 hover:bg-red-700"
               >
                 <Link href={onUpdateScoreHref} aria-label="Update score">
-                  UPDATE SCORE
+                  VIEW BLOG
                 </Link>
               </Button>
             </div>
@@ -140,14 +140,14 @@ export default function SiteSafetySection({
             {/* Footer links */}
             <div className="mt-4 text-center">
               <Link
-                href="/what-is-trustscore"
+                href="/help"
                 className="text-sm font-semibold text-red-700 underline underline-offset-2 hover:text-red-800"
               >
                 What is this?
               </Link>
               <div className="mt-2">
                 <Link
-                  href="/disclaimer"
+                  href="/blog"
                   className="text-xs text-neutral-500 underline underline-offset-2 hover:text-neutral-700"
                 >
                   Disclaimer
@@ -198,7 +198,8 @@ export default function SiteSafetySection({
       {/* Bottom actions */}
       <div className="mt-6 flex flex-col items-stretch justify-between gap-3 sm:flex-row sm:items-center">
         <Link
-          href={chargebackHelpHref}
+          href="https://giftlycard.com/legal/terms"
+          target="_blank"
           className="text-sm font-semibold text-neutral-700 underline underline-offset-2 hover:text-neutral-900"
         >
           GET YOUR MONEY BACK
@@ -208,7 +209,7 @@ export default function SiteSafetySection({
           asChild
           className="h-10 rounded-none bg-red-600 px-4 text-sm font-bold hover:bg-red-700"
         >
-          <Link href={manualVerificationHref}>ORDER MANUAL VERIFICATION</Link>
+          <Link href="https://giftlycard.com/legal/privacy" target="_blank">ORDER MANUAL VERIFICATION</Link>
         </Button>
       </div>
 

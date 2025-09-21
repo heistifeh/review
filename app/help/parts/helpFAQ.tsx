@@ -10,7 +10,7 @@ export default function HelpFAQ({ className = "" }: { className?: string }) {
         <>
           Check the domain age and ownership, SSL certificate, full company contact details,
           and independent reviews. Favor sites that support{" "}
-          <Link href="/safe-payment-methods" className="underline font-semibold">
+          <Link href="/help" className="underline font-semibold">
             buyer-friendly payment methods
           </Link>{" "}
           and clear refunds. Be cautious with extreme discounts.

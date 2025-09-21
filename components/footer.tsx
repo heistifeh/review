@@ -24,7 +24,7 @@ export default function Footer() {
         </h2>
 
         <form
-          action="/subscribe"
+          action="/"
           method="post"
           className="mt-3 flex w-full max-w-xl gap-2"
         >
@@ -40,7 +40,7 @@ export default function Footer() {
             className="w-full rounded-md border border-neutral-300 px-3 py-2 text-sm text-neutral-900 placeholder:text-neutral-400 focus:outline-none focus:ring-2 focus:ring-neutral-700"
           />
           <button
-            type="submit"
+            type="button"
             className="rounded-none bg-red-600 px-4 text-sm font-bold text-white hover:bg-red-700"
           >
             SUBSCRIBE

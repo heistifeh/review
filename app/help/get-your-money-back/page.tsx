@@ -116,7 +116,7 @@ export default function GetYourMoneyBack() {
         </p>
         <p className="mt-2 text-[15px] leading-7 text-neutral-700">
           Ready to warn others and get a manual check?{" "}
-          <Link href="/report" className="font-semibold underline">
+          <Link href="#" className="font-semibold underline">
             Report a scam
           </Link>
           .

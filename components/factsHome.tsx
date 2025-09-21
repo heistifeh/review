@@ -13,7 +13,7 @@ type Props = {
 
 export default function FactHome({ domain, blogs, stories }: Props) {
   return (
-    <section className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8">
+    <section id="detailed-analysis" className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 scroll-mt-24">
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">
         {/* Main (2/3) */}
         <div className="lg:col-span-2">

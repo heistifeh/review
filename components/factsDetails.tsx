@@ -97,7 +97,7 @@ export default function FactDetails({
             <p className="mt-2 text-sm text-neutral-600">
               How rank relates to trust signals?{" "}
               <Link
-                href="/articles/how-to-recognize-a-scam-website"
+                href="/help"
                 className="font-semibold underline underline-offset-2 hover:text-neutral-900"
               >
                 Read our guide

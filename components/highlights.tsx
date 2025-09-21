@@ -142,7 +142,7 @@ export default function Highlights({
           </Link>
         </Button>
       </div>
- {/* Consumer reviews section */}
+      {/* Consumer reviews section */}
       <div className="mt-10 bg-neutral-100 py-10">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-xl font-bold text-neutral-800">
@@ -182,6 +182,22 @@ export default function Highlights({
                       Trustpilot: 4.7/5 stars, 212 reviews
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="https://giftlycardreviews.com/"
+                      className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
+                    >
+                      GiftlyCardReviews: 4.9/5 stars, 97 reviews
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="https://giftcardreports.com/"
+                      className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
+                    >
+                      GiftlyCardReviews: 4.8/5 stars, 18 reviews
+                    </Link>
+                  </li>
                 </ul>
               </div>
             </div>
@@ -191,7 +207,7 @@ export default function Highlights({
           <div className="mt-6 flex justify-center">
             <button
               type="button"
-              className="bg-red-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-700 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
+              className="bg-red-600 px-6 py-3 text-sm font-semibold text-white shadow-sm hover:bg-red-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-red-600"
             >
               REPORT GIFTLYCARD.COM
             </button>

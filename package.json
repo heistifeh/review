@@ -2,11 +2,11 @@
   "name": "scamadviser",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://scamratings.com/",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",

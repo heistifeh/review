@@ -11,7 +11,7 @@ type Props = {
   stories: StoryItem[];
 };
 
-export default function FactHome({ domain, blogs, stories }: Props) {
+export default function FactHome({ domain}: Props) {
   return (
     <section id="detailed-analysis" className="mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-8 scroll-mt-24">
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-3">

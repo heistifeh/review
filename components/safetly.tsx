@@ -41,8 +41,8 @@ export default function SiteSafetySection({
         "Your personal scam detector, on the go! Check website safety, report scams, and get instant alerts.",
     },
   ],
-  manualVerificationHref = "/order-manual-verification",
-  chargebackHelpHref = "/get-money-back",
+  // manualVerificationHref = "/order-manual-verification",
+  // chargebackHelpHref = "/get-money-back",
   className = "",
 }: Props) {
   const clampedScore = Math.min(100, Math.max(0, trustScore));

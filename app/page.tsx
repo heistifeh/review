@@ -2,7 +2,6 @@ import Banner from "@/components/banner";
 import FactHome from "@/components/factsHome";
 import Highlights from "@/components/highlights";
 import SiteSafetySection from "@/components/safetly";
-import Image from "next/image";
 
 export default function Home() {
   return (

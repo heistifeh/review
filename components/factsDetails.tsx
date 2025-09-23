@@ -77,7 +77,16 @@ export default function FactDetails({
       <div className="rounded-md border border-neutral-200 bg-white shadow-sm">
         <div className="p-5">
           <p className="text-lg font-extrabold text-neutral-900">
-            Facts about <span className="text-emerald-600">{domain}</span>
+            Facts about{" "}
+            <span className="text-emerald-600">
+              <Link
+                href={`https://${domain}`}
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                {domain}
+              </Link>
+            </span>
           </p>
         </div>
 

@@ -185,17 +185,21 @@ export default function Highlights({
                   <li>
                     <Link
                       href="https://giftlycardreviews.com/"
+                      target="_blank"
+                      rel="nofollow noopener"
                       className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
                     >
-                      GiftlyCardReviews: 4.9/5 stars, 97 reviews
+                      GiftlyCardReviews.com: 4.9/5 stars, 97 reviews
                     </Link>
                   </li>
                   <li>
                     <Link
                       href="https://giftcardreports.com/"
+                      target="_blank"
+                      rel="nofollow noopener"
                       className="text-emerald-600 underline underline-offset-2 hover:text-emerald-700"
                     >
-                      GiftlyCardReviews: 4.8/5 stars, 18 reviews
+                      GiftCardReports.com: 4.8/5 stars, 18 reviews
                     </Link>
                   </li>
                 </ul>

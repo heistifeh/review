@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div>
       <Banner domain="GiftlyCard.com" visitHref="https://GiftlyCard.com" />
-      <SiteSafetySection domain="GiftlyCard.com" trustScore={80} />
+      <SiteSafetySection domain="GiftlyCard.com" trustScore={100} />
       <Highlights
         domain="GiftlyCard.com"
         positives={[

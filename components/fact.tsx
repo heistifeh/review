@@ -16,7 +16,15 @@ export default function Fact({ domain }: Props) {
       <article className="rounded-md border border-neutral-200 bg-white p-5 shadow-sm">
         <h2 className="text-2xl font-extrabold tracking-tight text-neutral-900">
           Full review{" "}
-          <span className="text-emerald-600">{domain}</span>
+          <span className="text-emerald-600">
+            <Link
+              href={`https://${domain}`}
+              target="_blank"
+              rel="nofollow noopener"
+            >
+              {domain}
+            </Link>
+          </span>
         </h2>
 
         <section className="mt-4">
@@ -24,10 +32,11 @@ export default function Fact({ domain }: Props) {
             Webshop Analysis
           </h3>
           <p className="mt-2 text-[15px] leading-7 text-neutral-700">
-            This website has been set up several years ago. We consider this a positive sign.
-            The longer a website exists, the more it can be expected that it is legit.
-            However, age is no guarantee. In some cases, scammers buy existing domain names and
-            start malicious practices there, so checking a website remains a necessity.
+            This website has been set up several years ago. We consider this a
+            positive sign. The longer a website exists, the more it can be
+            expected that it is legit. However, age is no guarantee. In some
+            cases, scammers buy existing domain names and start malicious
+            practices there, so checking a website remains a necessity.
           </p>
         </section>
 
@@ -37,9 +46,10 @@ export default function Fact({ domain }: Props) {
           </h3>
           <div className="mt-2 space-y-4 text-[15px] leading-7 text-neutral-700">
             <p>
-              We identified payment methods such as Alipay, Mastercard, PayPal, and Visa that
-              offer options to get money back if a product is not delivered or a dispute arises.
-              Each method has its own restrictions; always pay with a method you trust. For more, read{" "}
+              We identified payment methods such as Alipay, Mastercard, PayPal,
+              and Visa that offer options to get money back if a product is not
+              delivered or a dispute arises. Each method has its own
+              restrictions; always pay with a method you trust. For more, read{" "}
               <Link
                 href="/help/safe-payment-methods"
                 className="font-semibold underline underline-offset-2 hover:text-neutral-900"
@@ -49,23 +59,43 @@ export default function Fact({ domain }: Props) {
               .
             </p>
             <p>
-              A valid SSL certificate was found. Professional companies use SSL to encrypt communication.
-              Different levels of certification exist, and scammers can install basic SSL too. Never enter
-              data without checking whether SSL properly protects your information.
+              A valid SSL certificate was found. Professional companies use SSL
+              to encrypt communication. Different levels of certification exist,
+              and scammers can install basic SSL too. Never enter data without
+              checking whether SSL properly protects your information.
             </p>
           </div>
         </section>
       </article>
 
       {/* Facts card with red bar */}
-      <section aria-labelledby="facts-heading" className="rounded-md border border-neutral-200 bg-white shadow-sm">
+      <section
+        aria-labelledby="facts-heading"
+        className="rounded-md border border-neutral-200 bg-white shadow-sm"
+      >
         <h2 id="facts-heading" className="sr-only">
-          Facts about {domain}
+          Facts about{" "}
+          <Link
+            href={`https://${domain}`}
+            target="_blank"
+            rel="nofollow noopener"
+          >
+            {domain}
+          </Link>
         </h2>
 
         <div className="p-5">
           <h3 className="text-xl font-extrabold text-neutral-900">
-            Facts about <span className="text-emerald-600">{domain}</span>
+            Facts about{" "}
+            <span className="text-emerald-600">
+              <Link
+                href={`https://${domain}`}
+                target="_blank"
+                rel="nofollow noopener"
+              >
+                {domain}
+              </Link>
+            </span>
           </h3>
         </div>
 
